@@ -5,3 +5,7 @@ cd post-install-arch-gnome/
 
 chmod +x post-install-gnome-arch-v1.0.sh
 ./post-install-gnome-arch-v1.0.sh
+
+pacman -S adw-gtk-theme
+
+flatpak install flathub com.mattjakeman.ExtensionManager -y
